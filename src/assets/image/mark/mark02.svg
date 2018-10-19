@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="34px" viewBox="0 0 24 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 30</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="New-Landing-Page" transform="translate(-748.000000, -2663.000000)" stroke-width="3">
+            <g id="Group-30" transform="translate(750.000000, 2665.000000)">
+                <path d="M13.0868788,11 C14.603916,11 16.1219028,11.569218 17.2728568,12.7081237 C19.5757144,14.9854655 19.5757144,18.7121529 17.2728568,20.9899643 L9.89089228,28.2916414 C7.58803464,30.5694529 3.81989479,30.5694529 1.51798678,28.2916414 C0.766827854,27.5491219 0.260673989,26.6520869 0,25.7015115" id="Stroke-1261" stroke="#2BE5B2"></path>
+                <path d="M8.1290801,18.860029 C6.23685284,19.2794252 4.172733,18.7562367 2.70835857,17.2918725 C0.430547144,15.0145467 0.430547144,11.2878855 2.70835857,9.01009001 L10.0105054,1.70799436 C12.2878471,-0.569331454 16.0145345,-0.569331454 18.2923459,1.70799436 C19.430782,2.84642245 20,4.34788886 20,5.84888562" id="Stroke-1262" stroke="#755BF5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

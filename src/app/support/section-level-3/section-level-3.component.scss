@@ -1,0 +1,120 @@
+.section-level-3 {
+  background-color: #fafafa;
+  @media (max-width: 767px) {
+    padding-bottom: 35px;
+  }
+  .title {
+    font-family: Maven Pro;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    @media (min-width: 768px) and (max-width: 991px) {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    @media (max-width: 767px) {
+      font-size: 12px;
+      margin-bottom: 15px;
+    }
+    .category {
+      color: rgba(0, 0, 0, 0.34);
+      a {
+        color: rgba(0, 0, 0, 0.34);
+      }
+      .material-icons {
+        vertical-align: middle;
+        padding-left: 10px;
+        padding-right: 10px;
+        @media (min-width: 768px) and (max-width: 991px) {
+          font-size: 20px;
+        }
+        @media (max-width: 767px) {
+          font-size: 16px;
+          padding-left: 0px;
+          padding-right: 2px;
+        }
+      }
+    }
+  }
+  .rect {
+    background: white;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    padding: 42px 168px 80px 200px;
+    @media (min-width: 992px) and (max-width: 1200px) {
+      padding: 40px 100px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding: 25px 55px;
+    }
+    @media (max-width: 767px) {
+      padding: 15px;
+    }
+    .rect-title {
+      font-family: Maven Pro;
+      font-size: 54px;
+      color: rgba(0, 0, 0, 0.84);
+      line-height: 65px;
+      margin-bottom: 25px;
+      @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 40px;
+        line-height: 55px;
+      }
+      @media (min-width: 992px) and (max-width: 1200px) {
+        font-size: 48px;
+      }
+      @media (max-width: 767px) {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+      }
+    }
+    .description {
+      font-family: Maven Pro;
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.54);
+      margin-bottom: 10px;
+      @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 20px;
+      }
+      @media (max-width: 767px) {
+        font-size: 16px;
+      }
+    }
+    .status {
+      font-family: Maven Pro;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.34);
+      margin-bottom: 30px;
+      @media (max-width: 767px) {
+        font-size: 12px;
+        margin-bottom: 20px;
+      }
+    }
+    .article-content {
+      p {
+        font-family: Maven Pro;
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.84);
+        @media (max-width: 767px) {
+          text-align: left;
+          font-size: 15px;
+          line-height: 20px;
+        }
+      }
+      img {
+        display: block;
+        filter: drop-shadow(0px 0px 6px rgba(133, 132, 132, 0.5));
+        margin: 50px auto 60px;
+        @media (min-width: 768px) and (max-width: 991px) {
+          zoom: 80%;
+          max-width: 100%;
+        }
+        @media (max-width: 767px) {
+          zoom: 60%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

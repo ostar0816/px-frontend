@@ -1,0 +1,83 @@
+.dark-footer {
+  padding-top: 0px;
+  padding-bottom: 317px;
+  background-color: #2f2d37;
+  @media (min-width: 768px) and (max-width: 1200px) {
+    padding-bottom: 230px;
+  }
+  @media (max-width: 767px) {
+    padding-bottom: 150px;
+    padding-top: 50px;
+  }
+  .container {
+    @media (min-width: 1201px) {
+      padding-left: 12px;
+      padding-right: 10px;      
+    }
+  }
+  hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.30);
+    margin-top: 60px;
+    margin-bottom: 77px;
+    @media (max-width: 767px) {
+      margin-bottom: 54px;
+      margin-top: 10px;
+    }
+  }
+  .menu-columns {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 767px) {
+      display: block;
+    }
+    .menu-column {
+      width: auto;
+      text-align: left;
+      @media (max-width: 767px) {
+        margin-bottom: 50px;
+        text-align: center;
+      }
+    }
+    .menu-title {
+      font-size: 24px;
+      font-family: Maven Pro;
+      color: rgba($color: #ffffff, $alpha: .87);
+      margin-bottom: 50px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        font-size: 21px;
+      }
+      @media (max-width: 767px) {
+        font-size: 19px;
+        margin-bottom: 0px;
+      }
+    }
+    .menu-item {
+      display: block;
+      font-size: 19px;
+      font-family: Maven Pro;
+      color: rgba($color: #ffffff, $alpha: .87);
+      padding: 0;
+      margin: 20px 0;
+      text-transform: none;
+      @media (min-width: 1201px) {
+        margin: 25px 0;        
+      }
+      @media (min-width: 768px) and (max-width: 1200px) {
+        font-size: 17px;
+      }
+      @media (max-width: 767px) {
+        font-size: 15px;
+        margin: 14px 0 0;
+        display: inline-block;
+      }
+    }
+    ul li {
+      display: block;
+    }
+    .menu-item:hover,
+    .menu-item:focus {
+      color: #6f54f4;
+      text-decoration: none;
+    }
+  }
+}

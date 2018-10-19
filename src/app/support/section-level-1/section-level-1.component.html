@@ -1,0 +1,23 @@
+<div class="main">
+  <app-banner-search></app-banner-search>
+
+  <div class="section section-level-1">
+    <div class="container">
+      <div class="card flex-row" *ngFor="let category of categories; let i = index;" [@animate]="{value:'*',params:{duration:'800ms', delay:((i + 1) * 200 + 'ms'), y:'12%'}}">
+        <div class="card-mark">
+          <img class="material-icons" [src]="category.mark">
+        </div>
+
+        <div>
+          <a [routerLink]="[category._id, supportService.toLink(category.title)]">
+            <h3 class="card-title">{{ category.title }}</h3>
+          </a>
+          <p class="card-description">{{ category.description }}</p>
+          <p class="status">{{ category.countOfArticles }} articles in this collection</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer-light></app-footer-light>

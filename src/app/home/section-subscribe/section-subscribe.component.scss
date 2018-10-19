@@ -1,0 +1,146 @@
+.section-05 {
+  padding-bottom: 72px;
+  .container {
+    @media (min-width: 1201px) {
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+  }
+  @media (max-width: 767px) {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  @media (max-width: 1200px) and (min-width: 768px) {
+    padding-bottom: 0px;
+  }
+  .title {
+    font-size: 54px;
+    color: rgba($color: #ffffff, $alpha: .87);
+    @media (min-width: 1201px) {
+      margin-bottom: 28px;      
+    }
+    @media (min-width: 1201px) {
+      max-width: 320px;
+    }
+    @media (min-width: 992px) and (max-width: 1200px) {
+      font-size: 45px;
+      max-width: 280px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      font-size: 45px;
+    }
+    @media (max-width: 767px) {
+      font-size: 32px;
+      max-width: 200px;
+      margin-bottom: 0px;
+    }
+  }
+  .image-part {
+    position: relative;
+    max-width: 599px;
+    height: 77px;
+    @media (max-width: 767px) {
+      height: 40px;
+    }
+  }
+  .text-input {
+    height: 77px;
+    background: #636169;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.44);
+    border-radius: 200px;
+    border: none;
+    outline: none;
+    padding-left: 42px;
+    padding-right: 192px;
+    position: absolute;
+    right: 0;
+    width: 599px;
+    max-width: 599px;
+    @media (min-width: 768px) and (max-width: 1200px) {
+      max-width: 449px;
+      height: 58px;
+      font-size: 19px;
+      padding-right: 160px;
+    }
+    @media (max-width: 991px) {
+      position: relative;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+      height: 43px;
+      font-size: 16px;
+      max-width: 340px;
+      padding-right: 120px;
+      float: left;
+    }
+  }
+  ::placeholder {
+    color: rgba(255, 255, 255, 0.44);
+    font-weight: 0;
+    letter-spacing: 0.5px;
+    opacity: 1;
+  }
+  :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.44);
+    font-weight: 0;
+    letter-spacing: 0.5px;
+  }
+  ::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.44);
+    font-weight: 0;
+    letter-spacing: 0.5px;
+  }
+  .notification {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    color: #eeecd8;
+    min-width: 177px;
+    font-size: 19px;
+    font-family: Maven Pro;
+    @media (min-width: 768px) and (max-width: 1200px) {
+      top: 70px;
+      min-width: 150px;
+      font-size: 16px;
+    }
+    @media (max-width: 767px) {
+      font-size: 14px;
+      min-width: 135px;
+      top: 50px;
+    }
+  }
+  .submit-btn {
+    width: 192px;
+    height: 77px;    
+    background: #2BE5B3;
+    font-family: Maven Pro;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.84);
+    position: absolute;
+    border: none;
+    right: 0;
+    border-radius: 50px;
+    text-align: center;
+    outline: none;
+    @media (min-width: 1201px) {
+      padding-bottom: 7px;      
+    }
+    @media (min-width: 768px) and (max-width: 1200px) {
+      width: 144px;
+      height: 58px;
+      font-size: 19px;
+    }
+    @media (max-width: 991px) {
+      position: relative;
+      margin-left: -108px;
+    }
+    @media (max-width: 767px) {
+      width: 107px;
+      height: 43px;
+      font-size: 16px;
+      float: left;
+    }
+  }
+}

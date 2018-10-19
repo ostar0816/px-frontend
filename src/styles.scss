@@ -1,0 +1,252 @@
+.color-facebook {
+  color: #3b5999;
+}
+
+.color-facebook:hover {
+  background: #3b5999 !important;
+  transition: 0.3s;
+  color: white;
+}
+
+.color-twitter {
+  color: #55acee;
+}
+
+.color-twitter:hover {
+  background: #55acee !important;
+  transition: 0.3s;
+  color: white;
+}
+
+.color-linkedin {
+  color: #0077B5;
+}
+
+.color-linkedin:hover {
+  background: #0077B5 !important;
+  transition: 0.3s;
+  color: white;
+}
+
+.color-google-plus {
+  color: #dd4b39;
+}
+
+.color-google-plus:hover {
+  background: #dd4b39 !important;
+  transition: 0.3s;
+  color: white;
+}
+
+.color-pinterest {
+  color: #bd081c;
+}
+
+.color-pinterest:hover {
+  background: #bd081c !important;
+  transition: 0.3s;
+  color: white;
+}
+
+.color-instagram {
+  color: #e4405f;
+}
+
+.color-instagram:hover {
+  background: #e4405f !important;
+  transition: 0.3s;
+  color: white;
+}
+
+.color-blue {
+  color: #6F54F3!important;
+}
+
+.hidden-md-up {
+  @media (min-width: 768px) {
+    display: none !important;
+  }
+}
+
+.hidden-sm-down {
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.overlay-1 {
+  background-color: rgba(111, 84, 244, 0.5);
+  cursor: pointer;
+}
+
+.overlay-2 {
+  opacity: 0.3;
+  background-image: linear-gradient(-135deg, #AE9AFB 0%, #A793FA 10%, #A692FA 12%, #A692FA 12%, #A590FA 14%, #A490FA 15%, #6F54F4 100%);
+}
+
+.overlay-3 {
+  opacity: 0.2;
+  background-image: url('assets/image/home/dot.png');
+  background-size: 8px;
+  background-repeat: repeat;
+}
+
+.clip {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30vw;
+  background-size: 100% 100%;
+  position: relative;
+  margin-bottom: -1px;
+}
+
+.clip-1 {
+  background: url('assets/image/clips/clip1.svg') no-repeat 0 0;
+  margin-top: -30vw;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.clip-2 {
+  background: url('assets/image/clips/clip2.svg') no-repeat 0 0;
+}
+
+.clip-3 {
+  background: url('assets/image/clips/clip3.svg') no-repeat 0 0;
+}
+
+
+.main {
+  margin-top: 80px;  
+}
+
+.section {
+  @media (max-width: 767px) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    @media (min-width: 992px) and (max-width: 1200px) {
+      padding-left: 55px;
+      padding-right: 60px;
+    }
+    @media (min-width: 1201px) {
+      max-width: 1200px;
+      padding-left: 30px;
+      padding-right: 13px;
+    }
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .content-part {
+        max-width: 500px;
+        margin: auto;
+      }
+      .image-part {
+        display: table;
+        margin: auto;
+        margin-top: 30px;
+      }
+    }
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  .mark {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.6);
+    @media (max-width: 767px) {
+      width: 48px;
+      height: 48px;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    img {
+      @media (max-width: 767px) {
+        transform: scale(0.8);
+      }
+    }
+  }
+  .title {
+    font-family: Maven Pro;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: rgba($color: #000000, $alpha: .84);
+    @media (min-width: 768px) and (max-width: 1200px) {
+      font-size: 35px;
+    }
+    @media (max-width: 767px) {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+  }
+  .description {
+    font-family: Maven Pro;
+    font-size: 19px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: rgba($color: #000000, $alpha: .84);
+    @media (min-width: 768px) and (max-width: 1200px) {
+      font-size: 16px;
+    }
+    @media (max-width: 767px) {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 25x;
+      max-width: 400px;
+    }
+  }
+  .image-part {
+    .section-image {
+      border-radius: 20px;
+      box-shadow: 0 2px 40px 0 rgba(69, 53, 148, 0.65), inset 0 1px 19px 0 rgba(45, 32, 109, 0.50);
+    }
+    @media (max-width: 767px) {
+      margin-top: 30px;
+    }
+  }
+}
+
+.bg-gray {
+  background-color: #fafafa;
+}
+
+.bg-blue {
+  background-color: #6f54f3;
+  .title {
+    color: white;
+  }
+  .description {
+    color: white;
+  }
+}
+
+.bg-black {
+  background-color: #2f2d37;
+}

@@ -1,0 +1,27 @@
+<footer class="section dark-footer bg-2f2d37">
+  <div class="container">
+    <hr>
+
+    <div class="menu-columns">
+      <div *ngFor="let menu of menus" class="menu-column">
+        <ul>
+          <h3 class="menu-title" [@animateForText]="{value:state,params:{duration:menu.duration, delay:menu.delay}}">{{ menu.title }}</h3>
+          <li *ngFor="let item of menu.items">
+            <a class="menu-item" [routerLink]="item.path" [@animateForText]="{value:state,params:{duration:item.duration, delay:item.delay}}">{{ item.name }}</a>
+          </li>          
+        </ul>      
+      </div>
+
+      <div class="menu-column">
+        <ul>
+          <h3 class="menu-title" [@animateForText]="{value:state,params:{duration:'500ms', delay:'700ms'}}">GET IN TOUCH</h3>
+
+          <li>
+            <a href="mailto:help@pyxis.network" class="menu-item" [@animateForText]="{value:state,params:{duration:'500ms', delay:'1000ms'}}">help@pyxis.network</a>
+          </li> 
+        </ul>      
+      </div>
+    </div>
+
+  </div>
+</footer>

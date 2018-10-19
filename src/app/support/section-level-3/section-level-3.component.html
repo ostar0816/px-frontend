@@ -1,0 +1,26 @@
+<div class="main">
+  <app-banner-search></app-banner-search>
+
+
+  <div class="section section-level-3">
+    <div class="container">
+      <h1 class="title" data-aos="fade-up" data-aos-delay="300">
+        <a [routerLink]="['/', 'support']" [@animate]="{value:'*',params:{duration:'500ms',delay:'100ms',scale:'0.4'}}">All questions</a>
+        <span class="category">
+          <i class="material-icons" [@animate]="{value:'*',params:{duration:'500ms',delay:'200ms',scale:'0.4'}}">arrow_forward</i>
+          <a [routerLink]="['/', 'support', categoryId, categoryTitle]" [@animate]="{value:'*',params:{duration:'500ms',delay:'300ms',scale:'0.4'}}">{{ supportService.toTitle(categoryTitle) }}</a>
+          <i class="material-icons" [@animate]="{value:'*',params:{duration:'500ms',delay:'400ms',scale:'0.4'}}">arrow_forward</i>
+          <span [@animate]="{value:'*',params:{duration:'500ms',delay:'500ms',scale:'0.4'}}">{{ article.title }}</span>
+        </span>
+      </h1>
+
+      <div class="rect">
+        <h3 class="rect-title" [@animate]="{value:'*',params:{duration:'800ms',delay:'400ms',y:'15%'}}">{{ article.title }}</h3>
+        <p class="description" [@animate]="{value:'*',params:{duration:'800ms',delay:'700ms',y:'12%'}}">{{ article.description }}</p>
+        <p class="status" [@animate]="{value:'*',params:{duration:'1000ms',delay:'1000ms',y:'8%'}}">Updated {{ article.updatedAt }}</p>
+        <div [innerHtml]="articleContent" class="article-content" [@animate]="{value:'*',params:{duration:'1000ms',delay:'1200ms',y:'5px'}}"></div>
+      </div>
+    </div>
+  </div>
+
+  <app-footer-light></app-footer-light>

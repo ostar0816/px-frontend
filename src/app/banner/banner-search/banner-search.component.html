@@ -1,0 +1,9 @@
+<div class="section banner banner-search bg-blue">
+  <div class="container">
+    <h1 class="title" [@animate]="{value:'*',params:{duration:'800ms',delay:'100ms',scale:'0.8'}}">Advice and answers from the team.</h1>
+    <form class="search-form" (ngSubmit)="onSubmit(keyword.value)" [@animate]="{value:'*',params:{duration:'800ms',delay:'300ms',scale:'0.8'}}">
+      <i class="material-icons">search</i>
+      <input type="text" class="search-text" placeholder="Search for answers...." #keyword>
+    </form>
+  </div>
+</div>

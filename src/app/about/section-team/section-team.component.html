@@ -1,0 +1,35 @@
+<div class="section section-team">
+  <div class="container">
+    <div class="content-part hidden-sm-down">
+      <h1 class="title" [@animateForText]="{value:state,params:{duration:'500ms', delay:'350ms'}}">The Team</h1>
+    </div>
+
+    <div class="image-part">
+      <div class="box-image" *ngFor="let teamMember of teamMembers">
+        <div class="image">
+          <img src="{{ teamMember.avatar }}" class="image-fluid" [@animateForImage]="{value:state,params:{duration:teamMember.duration, delay:teamMember.delay}}"/>
+        </div>
+
+        <div class="image-overlay align-items-center justify-content-center">
+          <div class="text-center">
+            <h3 class="name">{{ teamMember.firstName }} {{teamMember.lastName}}</h3>
+            <h4 class="position">{{ teamMember.position }}</h4>            
+          </div>
+        </div>
+      </div>
+
+      <div class="box-image">
+        <div class="image">
+          <img src="" class="image-fluid" />
+        </div>
+
+        <div class="image-overlay align-items-center justify-content-center">
+          <div class="text-center">
+            <h3 class="name">Test</h3>
+            <h4 class="position">Test</h4>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

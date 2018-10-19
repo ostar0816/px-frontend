@@ -1,0 +1,206 @@
+.section-01 {
+  @media (max-width: 767px) {
+    padding-top: 45px;
+  }  
+  .content-part {
+    max-width: 490px;
+    @media (min-width: 992px) and (max-width: 1200px) {
+      max-width: 360px;
+    }
+  }
+  .advantages {
+    position: relative;
+    width: 583px;
+    height: 437px;
+    @media (min-width: 768px) and (max-width: 1200px) {
+      width: 423px;
+      height: 317px
+    }
+    @media (max-width: 767px) {
+      width: 263px;
+      height: 198px;
+    }
+    .advantage {
+      border-radius: 15px;
+      display: flex;
+      position: absolute;
+      .material-icons {
+        @media (min-width: 1201Px) {
+          margin-bottom: 10px;          
+        }
+      }
+      .advantage-title {
+        font-size: 20px;
+        font-family: Maven Pro;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0;
+        @media (min-width: 768px) and (max-width: 1200px) {
+          font-size: 14px;
+        }
+        @media (max-width: 767px) {
+          font-size: 10px;
+        }
+      }
+    }
+    .advantage-reliable {
+      background: rgba(255, 78, 99, 0.40);
+      color: #FD5C6F;
+      width: 128px;
+      height: 128px;
+      top: 164px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 93px;
+        height: 93px;
+        top: 100px;
+      }
+      @media (max-width: 767px) {
+        width: 58px;
+        height: 58px;
+        top: 77px;
+      }
+      .material-icons {
+        font-size: 34px;
+        top: 120px;
+        @media (min-width: 1201Px) {
+          margin-bottom: 10px;          
+        }
+        @media (min-width: 768px) and (max-width: 1200px) {
+          font-size: 28px;
+        }
+        @media (max-width: 767px) {
+          font-size: 20px;
+        }
+      }
+    }
+    .advantage-secure {
+      background: rgba(111, 84, 244, 0.40);
+      color: #6F54F4;
+      width: 210px;
+      height: 210px;
+      left: 157px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 152px;
+        height: 152px;
+        left: 113px;
+      }
+      @media (max-width: 767px) {
+        width: 94px;
+        height: 94px;
+        left: 71px;
+      }
+      .material-icons {
+        font-size: 60px;
+        @media (min-width: 1201Px) {
+          margin-bottom: 25px;          
+        }
+        @media (min-width: 768px) and (max-width: 1200px) {
+          font-size: 46px;
+        }
+        @media (max-width: 767px) {
+          font-size: 30px;
+        }
+      }
+    }
+    .advantage-safe {
+      background: rgba(74, 144, 226, 0.40);
+      color: #4A90E2;
+      width: 128px;
+      height: 128px;
+      top: 65px;
+      left: 395px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 93px;
+        height: 93px;
+        top: 47px;
+        left: 286px;
+      }
+      @media (max-width: 767px) {
+        width: 58px;
+        height: 58px;
+        top: 31px;
+        left: 183px;
+      }
+      .material-icons {
+        font-size: 34px;
+        @media (min-width: 1201Px) {
+          margin-bottom: 10px;          
+        }
+        @media (min-width: 768px) and (max-width: 1200px) {
+          font-size: 28px;
+        }
+        @media (max-width: 767px) {
+          font-size: 20px;
+        }
+      }
+    }
+    .advantage-support {
+      background: rgba(245, 166, 35, 0.40);
+      color: #F19D13;
+      width: 167px;
+      height: 167px;
+      top: 239px;
+      left: 179px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 121px;
+        height: 121px;
+        top: 174px;
+        left: 128px;
+      }
+      @media (max-width: 767px) {
+        width: 75px;
+        height: 75px;
+        top: 109px;
+        left: 79px;
+      }
+      .material-icons {
+        font-size: 50px;
+        @media (min-width: 1201Px) {
+          margin-bottom: 15px;          
+        }
+        @media (min-width: 768px) and (max-width: 1200px) {
+          font-size: 32px;
+        }
+        @media (max-width: 767px) {
+          font-size: 24px;
+        }
+      }
+    }
+    .advantage-simple {
+      background: rgba(43, 229, 178, 0.40);
+      color: #29D3A5;
+      width: 210px;
+      height: 210px;
+      top: 227px;
+      left: 373px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 152px;
+        height: 152px;
+        top: auto;
+        left: auto;
+        right: 0px;
+        bottom: 0px;
+      }
+      @media (max-width: 767px) {
+        width: 94px;
+        height: 94px;
+        top: auto;
+        left: auto;
+        right: 0px;
+        bottom: 0px;
+      }
+      .material-icons {
+        font-size: 60px;
+        @media (min-width: 1201Px) {
+          margin-bottom: 25px;
+        }
+        @media (min-width: 768px) and (max-width: 1200px) {
+          font-size: 48px;
+        }
+        @media (max-width: 767px) {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

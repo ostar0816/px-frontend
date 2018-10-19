@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="59px" viewBox="0 0 44 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>getting started icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.84">
+        <g id="Support-Page" transform="translate(-228.000000, -432.000000)" stroke="#000000" stroke-width="3">
+            <g id="getting-started-icon" transform="translate(230.000000, 434.000000)">
+                <path d="M0,30.919625 L39.5303906,30.919625 M21.4835156,43.2043906 C21.4835156,44.1537135 20.7140885,44.9231406 19.7647656,44.9231406 C18.8160156,44.9231406 18.0460156,44.1537135 18.0460156,43.2043906 C18.0460156,42.2550677 18.8160156,41.4856406 19.7647656,41.4856406 C20.7140885,41.4856406 21.4835156,42.2550677 21.4835156,43.2043906 M0,55 L39.5305625,55 L39.5305625,0 L0,0 L0,55 Z" id="Gameboy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

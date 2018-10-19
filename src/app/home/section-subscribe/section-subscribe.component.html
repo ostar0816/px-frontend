@@ -1,0 +1,17 @@
+<div class="section section-05 bg-black">
+  <div class="container">
+    <div class="content align-items-center">
+      <div class="content-part">
+        <h1 class="title" [@animateLeftToRight]="{value:state,params:{duration:'1000ms', delay:'100ms'}}">Want to Learn More?</h1>
+      </div>
+
+      <div class="image-part align-items-center">
+        <form (ngSubmit)="onSubmit(email.value)">
+          <input type="email" placeholder="Add your email" class="text-input font-maven-pro" name="email" #email [@animateRightToLeft]="{value:state,params:{duration:'800ms', delay:'100ms'}}">
+          <p *ngIf="signupResult != ''" class="notification">{{ signupResult }}</p>
+          <button class="submit-btn font-maven-pro" type="submit" [@animateRightToLeft]="{value:state,params:{duration:'700ms', delay:'700ms'}}">Sign up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,90 @@
+.section-level-1 {
+  background-color: #f9f9f9;
+  @media (min-width: 1201px) {
+    padding: 10px 0;
+  }
+  .container {
+    @media (min-width: 1201px) {
+      padding-right: 30px;
+    }
+  }
+  .title {
+    font-family: Maven Pro;
+    font-size: 24px;
+    color: rgba($color: #000000, $alpha: .34);
+    .keyword {
+      color: rgba($color: #000000, $alpha: .84);
+    }
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+  .card {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: 0 2px 14px 0 rgba(173, 173, 173, 0.50);
+    border-radius: 10px;
+    padding: 27px 40px 33px;
+    @media (max-width: 767px) {
+      display: block;
+      padding: 20px 15px 10px;
+    }
+    .card-title {
+      font-family: Maven Pro;
+      font-weight: normal;
+      margin-bottom: 15px;
+      font-size: 24px;
+      color: #6F54F4;
+      &:hover {
+        color: #9f46f8;
+      }
+      @media (max-width: 767px) {
+        font-size: 16px;
+      }
+    }
+    .card-description {
+      font-family: Maven Pro;
+      font-size: 19px;
+      margin-bottom: 5px;
+      color: rgba(0, 0, 0, 0.84);
+      @media (max-width: 767px) {
+        font-size: 15px;
+        line-height: 21px;
+      }
+    }
+    .status {
+      font-family: Maven Pro;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.54);
+      @media (max-width: 767px) {
+        font-size: 15px;
+      }
+    }
+    .card-mark {
+      background: none;
+      display: flex;
+      width: 193px;
+      padding-left: 38px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 155px;
+        padding-left: 25px;
+      }
+      @media (max-width: 767px) {
+        width: none;
+        padding-left: 0px;
+      }
+      .material-icons {
+        font-size: 68px;
+        color: rgba($color: #000000, $alpha: .34);
+        height: 55px;
+        margin-top: 30px;
+        @media (min-width: 1201px) {}
+        @media (max-width: 767px) {
+          font-size: 32px;
+          height: 23px;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

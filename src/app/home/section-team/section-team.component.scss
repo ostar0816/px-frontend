@@ -1,0 +1,173 @@
+.section-04 {
+  .title {
+    @media (min-width: 1201px) {
+      font-size: 55px;      
+    }
+  }
+  @media (min-width: 1201px) {
+    padding: 123px 0 0;
+  }
+    
+  @media (max-width: 767px) {
+    padding-top: 25px;
+  }
+  .content-part {
+    max-width: 570px;
+    @media (min-width: 992px) and (max-width: 1200px) {
+      max-width: 420px;
+    }
+    @media (max-width: 991px) {
+      order: 1;
+    }
+  }
+  .image-part {
+    @media (min-width: 1201px) {
+      margin-left: -23px;      
+    }
+    @media (max-width: 991px) {
+      order: 2;
+    }
+  }
+  .team {
+    // background-image: url('../image/test.png');
+    width: 503px;
+    height: 797px;
+    position: relative;
+    @media (min-width: 768px) and (max-width: 1200px) {
+      width: 355px;
+      height: 560px;
+    }
+    @media (max-width: 767px) {
+      width: 244px;
+      height: 386px;
+    }
+    .member {
+      .avatar {
+        position: absolute;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.50);
+      }
+    }
+    .member-01 .avatar {
+      width: 40px;
+      height: 40px;
+      left: 123px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 28px;
+        height: 28px;
+        left: 88px;
+      }
+      @media (max-width: 767px) {
+        width: 19px;
+        height: 19px;
+        left: 60px;
+      }
+    }
+    .member-02 .avatar {
+      width: 88px;
+      height: 88px;
+      top: 104px;
+      left: 300px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 62px;
+        height: 62px;
+        left: 212px;
+        top: 74px;
+      }
+      @media (max-width: 767px) {
+        width: 43px;
+        height: 43px;
+        top: 50px;
+        left: 145px;
+      }
+    }
+    .member-03 .avatar {
+      width: 145px;
+      height: 145px;
+      top: 198px;
+      left: 0px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 102px;
+        height: 102px;
+        top: 140px;
+      }
+      @media (max-width: 767px) {
+        width: 70px;
+        height: 70px;
+        top: 96px;
+      }
+    }
+    .member-04 .avatar {
+      width: 240px;
+      height: 240px;
+      top: 282px;
+      left: 196px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 168px;
+        height: 168px;
+        left: 138px;
+        top: 200px;
+      }
+      @media (max-width: 767px) {
+        width: 116px;
+        height: 116px;
+        left: 94px;
+        top: 138px;
+      }
+    }
+    .member-05 .avatar {
+      width: 88px;
+      height: 88px;
+      top: 607px;
+      left: 28px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 62px;
+        height: 62px;
+        left: 20px;
+        top: 426px;
+      }
+      @media (max-width: 767px) {
+        width: 43px;
+        height: 43px;
+        left: 12px;
+        top: 294px;
+      }
+    }
+    .member-06 .avatar {
+      width: 40px;
+      height: 40px;
+      top: 756px;
+      left: 243px;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 28px;
+        height: 28px;
+        left: 172px;
+        top: auto;
+        bottom: 0px;
+      }
+      @media (max-width: 767px) {
+        width: 20px;
+        height: 20px;
+        left: 116px;
+        top: auto;
+        bottom: 0px;
+      }
+    }
+    .member-07 .avatar {
+      width: 60px;
+      height: 60px;
+      top: 712px;
+      right: 0;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 45px;
+        height: 45px;
+        top: 500px;
+      }
+      @media (max-width: 767px) {
+        width: 31px;
+        height: 31px;
+        top: 344px;
+      }
+    }
+  }
+}

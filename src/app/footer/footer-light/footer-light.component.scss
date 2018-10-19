@@ -1,0 +1,51 @@
+.light-footer {
+  background-color: white;
+  border-top: 1px solid #979797;
+  padding-top: 30px;
+  padding-bottom: 180px;
+  .container {
+    @media (min-width: 1201px) {
+      padding-right: 30px;
+    }
+  }
+  .title {
+    color: black;
+    font-size: 28px;
+    margin-bottom: 15px;
+    @media (max-width: 767px) {
+      font-size: 17px;
+    }
+  }
+  .description {
+    font-size: 24px;
+    @media (max-width: 767px) {
+      font-size: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media (max-width: 480px) {
+      max-width: 220px;
+    }
+  }
+  .btn-send-email {
+    background: white;
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid #979797;
+    border-radius: 10px;
+    font-family: "Maven Pro";
+    font-size: 24px;
+    text-transform: none;
+    padding: 13px 64px 17px;
+    @media (max-width: 767px) {
+      font-size: 16px;
+      width: 100%;
+      max-width: 235px;
+      padding: 12px 32px;
+    }
+  }
+  .btn-send-email .material-icons {
+    font-size: 30px;
+    margin-right: 22px;
+    margin-top: -32px;
+  }
+}

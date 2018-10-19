@@ -1,0 +1,40 @@
+<div class="main">
+  <app-banner-search></app-banner-search>
+
+  <div class="section section-level-2">
+    <div class="container">
+      <h1 class="title">
+        <a [routerLink]="['/', 'support']" [@animate]="{value:'*',params:{duration:'500ms',delay:'100ms',scale:'0.4'}}">All Questions</a>
+        <span class="category">
+          <i class="material-icons" [@animate]="{value:'*',params:{duration:'500ms',delay:'300ms',scale:'0.4'}}">arrow_forward</i>
+          <span [@animate]="{value:'*',params:{duration:'500ms',delay:'500ms',scale:'0.4'}}">{{ category.title }}</span>
+        </span>
+      </h1>
+
+      <div class="rect">
+        <div class="rect-title-part flex-row">
+          <div class="rect-mark">
+            <img class="material-icons" [src]="category.mark" [@animate]="{value:'*',params:{duration:'800ms',delay:'100ms',scale:'0.2'}}"/>
+          </div>
+          <div class="rect-title-content">
+            <h3 class="title" [@animate]="{value:'*',params:{duration:'1000ms',delay:'300ms',x:'4%'}}">{{ category.title }}</h3>
+            <p class="description" [@animate]="{value:'*',params:{duration:'800ms',delay:'700ms',x:'2%'}}">{{ category.description }}</p>
+          </div>
+        </div>
+
+        <div class="card" *ngIf="articles?.length > 0">
+          <div *ngFor="let article of articles; let i = index" [@animate]="{value:'*',params:{duration:'800ms',delay:((i+1)*350)+'ms',y:'8%'}}">
+            <a [routerLink]="[article._id, supportService.toLink(article.title)]">
+              <h3 class="title">{{ article.title }}</h3>
+            </a>
+            <p class="description">{{ article.description }}</p>
+            <p class="status">Updated {{ article.updatedAt }}</p>
+            <hr *ngIf="i < articles?.length - 1">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer-light></app-footer-light>

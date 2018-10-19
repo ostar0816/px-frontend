@@ -1,0 +1,128 @@
+.section-03 {
+  @media (min-width: 1201px) {
+    padding-top: 132px;
+    padding-bottom: 104px;
+  }
+  @media (max-width: 767px) {
+    padding-top: 45px;
+  }
+  .content-part {
+    max-width: 470px;
+    @media (min-width: 992px) and (max-width: 1200px) {
+      max-width: 370px;
+    }
+  }
+  .receive-email-updates {
+    width: 326px;
+    height: 60px;
+    text-align: center;
+    background: white;
+    color: #6f54f4;
+    font-family: "Maven Pro";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    @media (min-width: 768px) and (max-width: 1200px) {
+      width: 286px;
+      height: 53px;
+      font-size: 16px;
+    }
+    @media (max-width: 991px) {
+      display: inherit;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 767px) {
+      width: 232px;
+      height: 43px;
+      font-size: 14px;
+    }
+  }
+  .image-part {
+    @media (min-width: 1201px) {
+      margin-right: 12px;      
+    }
+    .update-cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 543px;
+      text-align: left;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 388px;
+      }
+      @media (max-width: 767px) {
+        width: auto;
+      }
+      .left-col,
+      .right-col {
+        display: flex;
+        flex-direction: column;
+      }
+      .update-card {
+        display: inline-block;
+        width: 250px;
+        min-height: 264px;
+        border-radius: 30px 30px 20px 20px;
+        box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.29);
+        margin-bottom: 32px;
+        background: #fafafa;
+        @media (min-width: 767px) and (max-width: 1200px) {
+          width: 181px;
+          min-height: 200px;
+          margin-bottom: 28px;
+        }
+        @media (max-width: 767px) {
+          width: 224px;
+          min-height: 235px;
+        }
+        .header {
+          border-radius: 20px 20px 0 0;
+          height: 64px;
+          padding: 0 11px;
+          background-color: #6f54f3;
+          @media (min-width: 767px) and (max-width: 1200px) {
+            height: 46px;
+          }
+          @media (max-width: 767px) {
+            height: 59px;
+          }
+        }
+        .card-title {
+          font-family: Maven Pro;
+          font-size: 17px;
+          color: white;
+          line-height: 64px;
+          margin: 0;
+          @media (min-width: 767px) and (max-width: 1200px) {
+            line-height: 44px;
+            font-size: 13px;
+            letter-spacing: -0.7px;
+          }
+          @media (max-width: 767px) {
+            font-size: 15px;
+            line-height: 60px;
+          }
+        }
+        .main {
+          margin: 0;
+          background: none;
+          padding: 15px 11px 30px;
+        }
+        .card-content {
+          font-family: Maven Pro;
+          font-size: 16px;
+          line-height: 1.2;
+          margin: 0;
+          @media (min-width: 768px) and (max-width: 1200px) {
+            font-size: 12px;
+            letter-spacing: -0.1px;
+          }
+          @media (max-width: 768px) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
